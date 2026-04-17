@@ -107,19 +107,7 @@ Status: Success
 
 ## 📸 Screenshots
 
-### 🔹 AI Decision
-![AI Decision](Screenshots/itsm-incident-escalation.png)
-
----
-
-### 🔹 AI Action Log
-![AI Action](Screenshots/ai-action-execution-log.png)
-
----
-
-### 🔹 📊 AI Dashboard
-![Dashboard](Screenshots/ai-dashboard.png)
-
+Available in the Screenshots folder
 ---
 
 ## 💡 Key Highlights
