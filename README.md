@@ -3,7 +3,6 @@
 # 🚀 ServiceNow AI Command Center (AICC)
 
 ## 🧠 Overview
-## 🧠 Overview
 
 This project demonstrates how ServiceNow can be extended beyond traditional workflows into an **AI-driven automation platform**.
 
