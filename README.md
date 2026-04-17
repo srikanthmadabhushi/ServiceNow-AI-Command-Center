@@ -3,15 +3,17 @@
 # 🚀 ServiceNow AI Command Center (AICC)
 
 ## 🧠 Overview
-The ServiceNow AI Command Center is an AI-driven automation framework that simulates autonomous enterprise operations using event-driven architecture.
+## 🧠 Overview
 
-It processes incoming signals, generates intelligent decisions, executes actions, and logs outcomes — mimicking real-world AI-powered ServiceNow implementations.
+This project demonstrates how ServiceNow can be extended beyond traditional workflows into an **AI-driven automation platform**.
+
+The system captures signals from enterprise modules, processes them through an AI engine, generates insights, executes actions, and visualizes performance.
 
 ---
 
 ## 🏗️ Architecture
 
-AI Signal → AI Decision → AI Action → AI Action Log
+AI Signal → AI Decision → AI Action → AI Action Log → Dashboard
 
 - **AI Signal**: Captures events across modules (ITSM, HRSD, CSM)
 - **AI Decision**: Applies AI logic for decision-making
@@ -22,64 +24,140 @@ AI Signal → AI Decision → AI Action → AI Action Log
 
 ## ⚙️ Key Features
 
-- Event-driven automation using Business Rules
-- AI decision engine using Script Includes
-- Autonomous action execution
-- Cross-module support (ITSM, HRSD, CSM)
-- Full audit logging
+### 🔹 AI Signal Table
+Captures incoming events from multiple modules:
+- ITSM (Incidents)
+- HRSD (Employee Requests)
+- CSM (Customer Cases)
 
 ---
 
-## 🧪 Use Cases
-
-### 🔹 ITSM Scenario
-- Input: Server outage
-- AI Decision: Escalate
-- Action: Priority updated, state changed
+### 🔹 AI Decision Engine (Script Include)
+- Evaluates priority and signal type  
+- Determines action (Escalate / Notify / Auto-resolve)  
+- Assigns confidence score  
 
 ---
 
-### 🔹 HRSD Scenario
-- Input: Payroll access issue
-- AI Decision: Notify
-- Action: Routed to HR operations
+### 🔹 🤖 GenAI Insight Layer
+- Generates contextual explanations for each decision  
+- Simulates LLM (Large Language Model) behavior  
+
+**Example:**
+> AI Insight: This appears to be a critical issue impacting business operations. Immediate attention is recommended.
 
 ---
 
-### 🔹 CSM Scenario
-- Input: Customer payment issue
-- AI Decision: Notify
-- Action: Assigned to support team
+### 🔹 AI Action Execution
+- Automatically performs actions such as:
+  - Escalation  
+  - Routing  
+  - Auto-resolution  
 
 ---
 
-## 🛠️ Technologies Used
-
-- ServiceNow (Yokohama PDI)
-- Script Includes (AI Logic)
-- Business Rules (Automation)
-- GlideRecord (Data operations)
-- CMDB Integration
+### 🔹 AI Action Log
+- Tracks execution status  
+- Maintains audit and traceability  
 
 ---
 
-## 🎯 Business Value
+### 🔹 📊 AI Dashboard (Platform Analytics)
 
-- Reduces manual intervention
-- Improves response time
-- Enables intelligent automation
-- Provides audit and traceability
+Real-time visualization of:
+
+- Total AI signals processed  
+- Decision distribution (Escalate / Notify / Auto-resolve)  
+- Action execution success rate  
+- Escalation vs Auto-resolution %  
+
+---
+
+## 🔍 Use Cases
+
+### 🖥️ ITSM
+Server outage → Auto escalation  
+
+### 👩‍💼 HRSD
+Payroll issue → Smart routing  
+
+### 🎧 CSM
+Customer payment issue → Automated handling  
+
+Decision: Escalate
+Reason: Critical priority requires immediate escalation
+AI Insight: This appears to be a critical issue impacting business operations...
+Action: Assigned to IT Support Team
+Status: Success
+---
+
+## 🧪 Sample Output
+
+---
+
+## 🛠️ Tech Stack
+
+- ServiceNow (Yokohama PDI)  
+- Script Includes  
+- Business Rules  
+- GlideRecord  
+- Custom Tables  
+- Platform Analytics Dashboards  
+
+---
+
+## 📸 Screenshots
+
+### 🔹 AI Decision
+![AI Decision](Screenshots/itsm-incident-escalation.png)
+
+---
+
+### 🔹 AI Action Log
+![AI Action](Screenshots/ai-action-execution-log.png)
+
+---
+
+### 🔹 📊 AI Dashboard
+![Dashboard](Screenshots/ai-dashboard.png)
+
+---
+
+## 💡 Key Highlights
+
+- ✅ End-to-end AI pipeline in ServiceNow  
+- ✅ GenAI (LLM simulation) integration  
+- ✅ Multi-module coverage (ITSM, HRSD, CSM)  
+- ✅ Real-time analytics dashboard  
+- ✅ Business-level insights (automation vs escalation %)  
+
+---
+
+## 🎯 Key Learnings
+
+- AI in enterprise systems is about **decision pipelines**, not just models  
+- Explainability (GenAI insights) improves trust  
+- Dashboards convert automation into **business intelligence**  
+- ServiceNow can act as an **AI orchestration platform**  
 
 ---
 
 ## 🚀 Future Enhancements
 
-- LLM integration (OpenAI / Now Assist)
-- Predictive Intelligence
-- Agent-based orchestration
-- Real-time monitoring integration
+- Real LLM integration (OpenAI / Now Assist)  
+- Predictive AI models  
+- Multi-agent AI system  
+- Advanced analytics and alerting  
+
+---
+
+## 🔗 GitHub Repository
+
+👉 https://github.com/SrikanthMadabhushi/ServiceNow-AI-Command-Center
 
 ---
 
 ## 👨‍💻 Author
-Srikanth Madabhushi
+
+**Srikanth Madabhushi**  
+🔗 https://SrikanthMadabhushi.github.io  
